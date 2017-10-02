@@ -21,7 +21,7 @@ class ofApp : public ofBaseApp{
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
     void audioOut(float * output, int bufferSize, int nChannels);
-    int bufferSize = 4096;
+    int bufferSize = 1024;
   
   float *vizBuf;
   
